@@ -1,0 +1,5 @@
+﻿  main.cpp
+f:\大三上 编译原理 cs106\我的作业\pvm\pvm\pvm\main.cpp(351): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“char **”
+symbol_tabel.obj : error LNK2005: "struct symbol * syms" (?syms@@3PAUsymbol@@A) 已经在 main.obj 中定义
+main.obj : error LNK2019: 无法解析的外部符号 "void __cdecl output(char const *,struct p_instruction const *,int)" (?output@@YAXPBDPBUp_instruction@@H@Z)，该符号在函数 _main 中被引用
+F:\大三上 编译原理 CS106\我的作业\PVM\PVM\Debug\PVM.exe : fatal error LNK1120: 1 个无法解析的外部命令

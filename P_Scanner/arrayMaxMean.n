@@ -1,0 +1,38 @@
+/* return the largest item in an array, correct */
+num max(num * arr, num size) -->
+    num j;
+    num largest;
+    j = 0;
+    largest = arr[j];
+    while(j < size){
+      if(arr[j] > largest){
+        largest = arr[j];
+      }
+      j = j+1;
+    }
+    return largest;  
+    :) /* function definition ends with a smile */
+    
+
+void driver(void) -->
+    num arr[5];
+    num j;
+    num mean;
+    j = 0;
+    while(j< 5|1){
+      arr[j] = read();
+      j = j + 1;
+    }
+    print("The largest number in the array is\n");
+    write(max(arr, 5));
+    printf("\n");
+    mean = (arr[0]+arr[1] + arr[2] + arr[3] + arr[4] ) / 5;
+    print("The mean of the numbers in the array is\n");
+    write(mean);
+    :)
+
+driver(); /* activate the program */
+print("Bye bye");    
+
+
+

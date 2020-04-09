@@ -1,0 +1,6 @@
+﻿  scanner.cpp
+f:\大三上 编译原理 cs106\我的作业\demo\scanner.cpp(29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+f:\大三上 编译原理 cs106\我的作业\demo\scanner.cpp(352): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+  demo.vcxproj -> F:\大三上 编译原理 CS106\我的作业\demo\Debug\demo.exe

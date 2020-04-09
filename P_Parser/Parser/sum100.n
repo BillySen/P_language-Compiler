@@ -1,0 +1,21 @@
+/* computes the sum from 1 to 100 */
+
+num sum(num) -->
+    num j ;
+    num result;
+    j = result = 0;
+    /* result = 0; */
+    while(j!=100){
+      result = result +  j;
+      j = j+1;
+    }
+    return result;
+:)
+
+void main(void) -->
+  num k;
+  read(k);
+  //write(sum(k));
+:)
+
+main();

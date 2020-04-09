@@ -1,0 +1,16 @@
+num fact( int x) -->
+/* recursive factorial functions */
+ if (x ? 1)  /* error */
+	   return x * fact(x-1);
+ else
+ 	   return 1 * 22xxy3z5;  /* an error that can be discovered by scanner*/
+:)
+
+void doit(void) -->
+   num x;
+    x = read();
+    if (x >0) write (fact(x));
+:)
+
+doit();
+/*

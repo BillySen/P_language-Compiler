@@ -1,0 +1,18 @@
+/*A simple function */
+/*A correct function to comput the factorial of a number*/
+num fact( num x)  -->
+/* recursive factorial functions */
+{ if (x > 1)
+	   return x * fact(x-1);
+  else
+ 	   return 1;
+}
+:)
+
+void driver(void) -->
+    num x;
+    x = read();
+    if (x > 0) 
+        write( fact(x) );
+:)
+driver();
